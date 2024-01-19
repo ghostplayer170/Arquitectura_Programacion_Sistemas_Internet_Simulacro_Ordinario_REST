@@ -10,7 +10,6 @@ const env = await load(); // Carga Variables de entorno
 const MONGO_URL = env.MONGO_URL || Deno.env.get("MONGO_URL") || "";
 const PORT = env.PORT || Deno.env.get("PORT") || 3060;
 
-// Verificar variables de entorno.
 if (!MONGO_URL) {
   console.log("No mongo URL");
   Deno.exit(1);

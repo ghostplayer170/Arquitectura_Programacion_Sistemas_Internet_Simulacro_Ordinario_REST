@@ -1,11 +1,8 @@
-// deno-lint-ignore-file
-// @ts-ignore
-
 import { Request, Response } from "npm:express@4.18.2";
 import { typeExample } from "../types.ts";
 
-export const delete = async (
-  req: Request<{}, {}, typeExample>,
+export const del = async (
+  req: Request<{}, {}, {}, {}>,
   res: Response<typeExample | { error: unknown }>
 ) => {
   try {
@@ -16,4 +13,4 @@ export const delete = async (
   }
 };
 
-export default delete;
+export default del;
