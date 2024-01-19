@@ -1,5 +1,5 @@
 // deno-lint-ignore-file
-import mongoose from "npm:mongoose@7.6.3";
+import mongoose from "npm:mongoose@8.0.1";
 import express, { Request, Response } from "npm:express@4.18.2";
 
 // Importación de función 'load' de Deno para cargar variables de entorno.
