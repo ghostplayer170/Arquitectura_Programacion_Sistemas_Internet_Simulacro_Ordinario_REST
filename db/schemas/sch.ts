@@ -1,4 +1,4 @@
-import mongoose from "npm:mongoose@7.6.3";
+import mongoose from "npm:mongoose@8.0.1";
 
 export type ExampleModelType = 
     & mongoose.Document;
